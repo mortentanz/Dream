@@ -1,0 +1,14 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\gamx.exe.config
+bin\Debug\gamx.exe
+bin\Debug\gamx.pdb
+obj\Debug\gamx.exe
+obj\Debug\gamx.pdb
+bin\Release\gamx.exe.config
+bin\Release\gamx.exe
+bin\Release\gamx.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\gamx.exe
+obj\Release\gamx.pdb
+bin\Debug\Dream.Preprocessor.Language.dll
+bin\Debug\Dream.Preprocessor.Language.pdb

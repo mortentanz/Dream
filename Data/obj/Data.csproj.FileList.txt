@@ -1,0 +1,6 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\Dream.Data.dll
+bin\Debug\Dream.Data.pdb
+obj\Debug\Dream.Data.dll
+obj\Debug\Dream.Data.pdb
+bin\Debug\Dream.Data.dll.config

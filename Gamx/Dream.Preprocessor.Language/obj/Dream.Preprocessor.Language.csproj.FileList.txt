@@ -1,0 +1,5 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\Dream.Preprocessor.Language.dll
+bin\Debug\Dream.Preprocessor.Language.pdb
+obj\Debug\Dream.Preprocessor.Language.dll
+obj\Debug\Dream.Preprocessor.Language.pdb

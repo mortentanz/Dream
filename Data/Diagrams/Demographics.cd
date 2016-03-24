@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Dream.Data.DBEntry">
+    <Position X="13.5" Y="0.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Dream.Data.DBEntry.CatalogAction" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DBEntry.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EAAABIQAQAiAEEAQABIIAgAADlEAAARAiAAAAFgAAhA=</HashCode>
+      <FileName>DBEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dream.Data.SeriesInfo">
+    <Position X="7" Y="0.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAgCAACAAAAAIAAAACAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>SeriesInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dream.Data.Demographics.ProjectionInfo">
+    <Position X="3.75" Y="4" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAASAoAAEACABCAAAAAgAAAAAgAAAAEAEAABBBAAAwI=</HashCode>
+      <FileName>ProjectionInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dream.Data.Demographics.ForecastInfo">
+    <Position X="7" Y="4" Width="1.75" />
+    <Members>
+      <Method Name="ForecastInfo" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BAAAAAEAEACBBBAABAIAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ForecastInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dream.Data.Demographics.MortalityInfo">
+    <Position X="2" Y="10.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Dream.Data.Demographics.MortalityInfo.ScaleOption" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MortalityInfo.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAgAAAAIAACBBBIAAAAKAAAAAgAAAAAAACAEAAAgBBA=</HashCode>
+      <FileName>MortalityInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dream.Data.Demographics.EmigrationInfo">
+    <Position X="10" Y="10.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Dream.Data.Demographics.EmigrationInfo.ScaleOption" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EmigrationInfo.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAgAAAAIAACBBBIAAAAKAAAAEgAAABAAACAEAAAgBBA=</HashCode>
+      <FileName>EmigrationInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dream.Data.Demographics.NaturalizationInfo">
+    <Position X="6" Y="10.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAChBBAAIAAIAAAAEgAAABAAAAAAAAAAABA=</HashCode>
+      <FileName>NaturalizationInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dream.Data.Demographics.BirthInfo">
+    <Position X="8" Y="10.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Dream.Data.Demographics.BirthInfo.AssumptionFlags" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BirthInfo.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAgCBBJIICAAKAAAAAggCAAAAAAGAgAAAghA=</HashCode>
+      <FileName>BirthInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dream.Data.Demographics.EstimationInfo">
+    <Position X="11.25" Y="4" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="Dream.Data.SeriesInfo" ManuallyRouted="true">
+      <Path>
+        <Point X="7.875" Y="2.573" />
+        <Point X="7.875" Y="3.622" />
+        <Point X="12.125" Y="3.622" />
+        <Point X="12.125" Y="4" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAIIAABAAAABAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>EstimationInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dream.Data.Demographics.FertilityEstimationInfo">
+    <Position X="10.25" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>FertilityEstimationInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dream.Data.Demographics.MortalityEstimationInfo">
+    <Position X="8.25" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MortalityEstimationInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dream.Data.Demographics.ImmigrationEstimationInfo">
+    <Position X="12.25" Y="7.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAABQ=</HashCode>
+      <FileName>ImmigrationEstimationInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dream.Data.Series">
+    <Position X="1.25" Y="0.5" Width="1.75" />
+    <Members>
+      <Method Name="GetHashCode" Hidden="true" />
+      <Method Name="GetOrdinal" Hidden="true" />
+      <Method Name="GetYear" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAgQCBAAAAAAAAggwEAKAABACgAACIAABAAAAAAAhAA=</HashCode>
+      <FileName>Series.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dream.Data.Demographics.EmigrationEstimationInfo">
+    <Position X="14.25" Y="7.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAABQ=</HashCode>
+      <FileName>EmigrationEstimationInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dream.Data.Demographics.FertilityInfo">
+    <Position X="4" Y="10.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Dream.Data.Demographics.FertilityInfo.ScaleOption" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>FertilityInfo.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAgAAAAIAACBBBIAAAAKAAAAAgAAAAAAACAEAAAgBBA=</HashCode>
+      <FileName>FertilityInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dream.Data.Demographics.ImmigrationInfo">
+    <Position X="12" Y="10.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Dream.Data.Demographics.ImmigrationInfo.ScaleOption" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ImmigrationInfo.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAgAAAAIAACBBBIAAAAKAAAAEgAAABAAACAEAAAgBBA=</HashCode>
+      <FileName>ImmigrationInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Dream.Data.Demographics.ForecastSpecification">
+    <Position X="4" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAEAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Enumerations.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dream.Data.Demographics.FlowDetermination">
+    <Position X="2" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Enumerations.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
